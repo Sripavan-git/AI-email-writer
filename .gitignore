@@ -1,0 +1,36 @@
+# General
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.idea/
+.vscode/
+*.log
+
+# Java Backend (Spring Boot)
+email-writer-backend/target/
+email-writer-backend/.mvn/
+email-writer-backend/mvnw
+email-writer-backend/mvnw.cmd
+email-writer-backend/.classpath
+email-writer-backend/.project
+email-writer-backend/.settings/
+email-writer-backend/*.iml
+email-writer-backend/.gradle/
+email-writer-backend/build/
+email-writer-backend/.env
+email-writer-backend/*.log
+email-writer-backend/.idea/
+email-writer-backend/src/main/resources/application.properties
+email-writer-backend/src/main/resources/application.yml
+
+# React Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.eslintcache
+frontend/.parcel-cache/
+frontend/yarn.lock
+frontend/package-lock.json
